@@ -25,8 +25,14 @@ pred_salary = model.predict(user_features)
 
 print(f"Estimated Salary: ${pred_salary[0]:.0f}k") #round to 0 decimal places and format as a float
 
-# Example:
-# Input: exp=5, pubs=2, phd=yes
-# Output: Estimated Salary: $70k
+#Example Output
+
+#Linear Regression R² Score: 0.92  
+#Enter your number of experience: 5  
+#Enter number of publications: 2  
+#Do you have a PhD? (yes/no): yes  
+
+#Estimated Salary: $70k
+
 
 

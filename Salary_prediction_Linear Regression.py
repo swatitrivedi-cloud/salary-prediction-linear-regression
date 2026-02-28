@@ -24,3 +24,9 @@ user_features = np.array([[exp, pubs, phd]])
 pred_salary = model.predict(user_features)
 
 print(f"Estimated Salary: ${pred_salary[0]:.0f}k") #round to 0 decimal places and format as a float
+
+# Example:
+# Input: exp=5, pubs=2, phd=yes
+# Output: Estimated Salary: $70k
+
+
